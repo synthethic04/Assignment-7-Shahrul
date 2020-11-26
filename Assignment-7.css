@@ -4,11 +4,11 @@
   padding: 0;
 }
 
-div,
+/* div,
 tr,
 td {
   border: 1px solid black;
-}
+} */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -25,13 +25,17 @@ body {
   align-items: center;
 }
 
+.row-992 {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: normal;
 }
 
 span {
-  color: red;
+  color: rgba(209, 25, 25, 0.719);
   text-transform: uppercase;
 }
 
@@ -56,7 +60,7 @@ li a {
 
 .active {
   border-radius: 60%;
-  background-color: red;
+  background-color: rgba(209, 25, 25, 0.719);
   color: rgb(255, 255, 255);
 }
 
@@ -68,11 +72,12 @@ li a:hover:not(.active) {
 
 .link {
   text-decoration: none;
-  color: rgb(255, 0, 0);
+  color: rgba(209, 25, 25, 0.719);
 }
 
 .gray,
-.w-23 p {
+.w-23 p,
+.float-left p {
   color: rgb(128, 128, 128);
 }
 
@@ -99,6 +104,10 @@ li a:hover:not(.active) {
 }
 
 img {
+  width: 100%;
+}
+
+.w-img {
   width: 100%;
 }
 
@@ -150,7 +159,6 @@ img {
 
 .back-black {
   background: black;
-  color: white;
   height: 70vh;
 }
 
@@ -161,10 +169,14 @@ img {
 button {
   padding: 5px 10px;
   color: #ffffff;
-  background-color: rgba(214, 21, 21, 0.829);
+  background-color: rgba(209, 25, 25, 0.719);
 }
 
 .w-50 {
+  width: 50%;
+}
+
+.img-50 {
   width: 50%;
 }
 
@@ -183,7 +195,7 @@ td {
 
 td a {
   text-decoration: none;
-  color: rgba(255, 0, 0, 0.863);
+  color: rgba(209, 25, 25, 0.719);
 }
 
 .grid-2 > div > img {
@@ -198,4 +210,14 @@ td a {
   justify-content: space-between;
   align-content: space-between;
   height: 390px;
+}
+
+h2,
+h4 {
+  color: #ffffff;
+}
+
+i {
+  color: rgba(209, 25, 25, 0.719);
+  font-size: 1.6rem;
 }
