@@ -221,3 +221,7 @@ i {
   color: rgba(209, 25, 25, 0.719);
   font-size: 1.6rem;
 }
+
+.new {
+  padding: 5px 20px;
+}

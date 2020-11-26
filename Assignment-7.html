@@ -10,91 +10,110 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!--responsive-->
-    <!-- <style>
+    <style>
+        @media screen and (max-width:1200px) { 
+            ul {margin: 0px;}
 
-        @media screen and (max-width:576px) {
-
-        }
-
-        @media screen and (min-width:576px) {
-
-            .row {flex-direction: column;}
-
-            .col-1 {padding: 0px;}
-
-            ul      {
-                margin: 33px;
-            }
-
-            li a        {   
-                margin: 5px;
-                padding: 15px 4px;
-            }
-
-            .pad {padding: 23px;}
-
-            .grid {grid-template-rows: auto auto; margin-top: 361px;}
-
-            .merge {width: 100%;}
-
-            .merge-1 {top: 20%; left: 0%;}
-
-            .merge-2 {top: 40%; left: 0%;}
-
-            .merge-3 {top: 60%; left: 0%;}
-
-            .merge-4 {top: 80%; left: 0%;}
-
-
-
-        }
-
-         @media screen and (min-width:768px) {
-
-            .pad {padding: 26px;}
+            li a {margin: 1px;}
 
             .grid {grid-template-rows: auto auto;}
 
-            .relative {margin-bottom: 71px;}
+            .relative {margin-bottom: 15px;}
 
-            .h-100 {height: 114vh;}
+            .h-img {height: 423px;}
 
+            .new {padding: 3px 13px;}
 
+            td {padding: 7px 0px;}
 
+            .h-80 {height: 82vh;}                 
         }
 
-        @media screen and (min-width:992px) { 
+        @media screen and (max-width:992px) { 
             .pad {padding: 26px;}
 
-            li a {margin: 0px;}
-
-            .h-80 {height: 140vh;}
+            li a {padding: 22px 7px;}
 
             .row-992 {flex-direction: column;}
 
             .w-50 {width: 100%;}
 
-            .h-img {height: 445px;}   
+            td {padding: 22px 50px;}
 
-            .w-img {width: 96%;}
+            .h-50 {height: 71vh;}
 
-            .grid-2 {height: 450px;}
+            .grid-2 {grid-template-columns: auto auto auto auto; height: 427px;}
 
-            .grid-2 > div > img {
-                 width: 212px;
-                 height: 140px;
-                 display: block;
-                }
+            .grid-2 > div > img {width: 178px; height: 123px;}
 
-            .h-50 {height: 74vh;}
-
-            .h-80 {height: 153vh;}
+            .h-80 {height: 146vh;}
         }
 
-        @media screen and (min-width:1200px) { 
-                        
+        @media screen and (max-width:768px) {
+            .grid {display: block;}
+
+            .relative {margin-bottom: -40px;}
+
+            .h-100 {height: 93vh;}
+
+            .row {flex-direction: column;}
+
+            li a {padding: 9px 18px;}
+
+            td {padding: 17px 19px;}
+
+            .back-black {height: 57vh;}
+
+            td {padding: 14px 19px;}
+
+            .grid-2 {grid-template-columns: auto auto auto; height: 517px;}
+
+            .h-80 {height: 158vh;}
         }
-    </style> -->
+
+        @media screen and (max-width:576px) {
+            .col-1 {padding: 15px;}
+
+            li a {padding: 9px 15px;}
+
+            .merge {width: 100%;}
+
+            .merge-1 {left: 0%; top: 20%;}
+
+            .merge-2 {left: 0%; top: 40%;}
+
+            .merge-3 {left: 0%; top: 60%;}
+
+            .merge-4 {left: 0%; top: 80%;}
+
+            .grid {margin-top: 383px;}
+
+            .h-100 {height: 146vh;}
+
+            .row {display: block; text-align: center;}
+
+            .w-23 {width: 75%; margin: 0 auto; margin-bottom: 25px;}
+
+            .back-black {height: 247vh;}
+
+            .float-left {float: none;}
+
+            .img-50 {width: 100%;}
+
+            .h-50 {height: 128vh;}
+
+            td {padding: 22px 0px;}
+
+            .grid-2 {grid-template-columns: auto auto; height: 1018px;}
+
+            .grid-2 > div > img {width: 226px; height: 155px;}
+
+            .h-80 {height: 285vh;}
+
+            table {text-align: justify;}
+
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
@@ -177,7 +196,7 @@
                     <div class="float-left img-50">
                         <img class="h-img w-img" src="aboutme.jpeg" alt="">
                     </div>
-                    <div style="padding: 5px 20px;" class="float-left img-50">
+                    <div class="float-left img-50 new">
                         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum similique alias obcaecati repudiandae, culpa ut?</h4><br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eligendi ipsam laudantium nobis laborum praesentium similique maiores. Quo, aut ab.</p><br>
                         <hr><br>
